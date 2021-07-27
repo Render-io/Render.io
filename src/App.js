@@ -1,12 +1,15 @@
+import 'bootstrap/dist/css/bootstrap.min.css'
+
+import {BrowserRouter as Router} from 'react-router-dom';
+
 import './App.css';
+import Header from './Components/Pages/Header';
 
 function App() {
   return (
-    <div className="App">
-      <h3>
-        Render.io Coming Soon...
-      </h3>
-    </div>
+    <Router>
+      <Header />
+    </Router>
   );
 }
 
